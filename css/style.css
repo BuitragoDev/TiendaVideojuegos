@@ -1,0 +1,1505 @@
+/* ==================================================================================
+================	URL 		    |		www.antoniobuitrago.es   ================
+================	Author Name		|		Antonio Buitrago         ================
+================================================================================== */
+
+/* Importamos las fuentes del proyecto */
+@import url('fonts.css');
+
+/* ----------------------------- Estilos del HEADER ------------------------------ */
+header .logo {
+    font-size: 2.5em;
+    color: var(--bs-white);
+}
+
+.topRow {
+    height: 80px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.logo a,
+.logo a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.profile a,
+.profile a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.profile a:hover {
+    filter: contrast(0.5);
+}
+/* --------------------------- FIN Estilos del HEADER ---------------------------- */
+
+/* ------------------------------ Estilos del NAV -------------------------------- */
+.menuRow {
+    background-color: var(--bs-gray-400);
+    border-bottom: 2px solid var(--bs-gray-800);
+}
+
+.menuRow a,
+.menuRow a:active {
+    color: var(--bs-black);
+    text-decoration: none;
+}
+
+.dropdown-menu {
+    background-color: var(--bs-gray-400);
+}
+
+nav .navbar-collapse i {
+    color: var(--bs-black);
+    cursor: pointer;
+}
+/* ----------------------------- FIN Estilos del NAV ----------------------------- */
+
+/* Estilos del Carrusel de la portada */
+.ofertas-portada {
+    width: 100%;
+    border-bottom: 2px solid var(--bs-gray-800);
+}
+
+.carousel-inner img {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carouselPortada button {
+    background-color: var(--bs-black);
+    opacity: 0.4;
+}
+
+.carouselPortada button:hover {
+    background-color: var(--bs-black);
+    opacity: 0.4;
+}
+
+.carouselPortada button:focus {
+    background-color: var(--bs-black);
+    opacity: 0.4;
+}
+
+/* Estilos de las ofertas de portada */
+.black-friday {
+    width: 75%;
+}
+
+.sales img {
+    border-radius: 10px;
+    border: 5px solid var(--bs-white);
+}
+
+.sales img:hover {
+    border: 5px solid var(--bs-warning);
+}
+
+@media screen and (max-width: 992px) {
+    .black-friday {
+        width: 100%;
+    }
+
+    .carousel-inner img {
+        height: 250px;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+
+/* Estilos de los carruseles de videojuegos */
+.owl-carouselRecientes .item {
+    width: 100%;
+}
+
+.owl-carouselRecomendados .item {
+    width: 100%;
+}
+
+.owl-carouselLanzamientos .item {
+    width: 100%;
+}
+
+.precio {
+    font-size: 1.5em;
+    color: var(--bs-danger);
+}
+
+.imagen-card {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 200px;
+    transition: all 0.8s ease-in-out;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+    transition: all 0.8s ease-in-out;
+}
+
+.card .card-body .btn {
+    float: right;
+}
+
+/* Estilos para las flechas de navegación del Owl Carousel */
+.custom-navRecientes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navRecomendados {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navLanzamientos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navArticleRecomendados {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navBlackFriday {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navBlackFriday {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.custom-navCart {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.owl-prevRecientes,
+.owl-nextRecientes {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevRecientes:hover,
+.owl-nextRecientes:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.owl-prevRecommended,
+.owl-nextRecommended {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevRecommended:hover,
+.owl-nextRecommended:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.owl-prevLanzamientos,
+.owl-nextLanzamientos {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevLanzamientos:hover,
+.owl-nextLanzamientos:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.owl-prevArticleRecommended,
+.owl-nextArticleRecommended {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevArticleRecommended:hover,
+.owl-nextArticleRecommended:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.owl-prevBlackFriday,
+.owl-nextBlackFriday {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevBlackFriday:hover,
+.owl-nextBlackFriday:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+.owl-prevCart,
+.owl-nextCart {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.owl-prevCart:hover,
+.owl-nextCart:hover {
+    background-color: var(--bs-white);
+    color: var(--bs-black);
+}
+
+@media screen and (max-width: 768px) {
+    .owl-carouselRecientes .item {
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carouselRecomendados .item {
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carouselLanzamientos .item {
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carouselArticulosRecomendados .item {
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .owl-carouselCart .item {
+        margin: 2em 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .custom-navRecientes {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .custom-navRecomendados {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .custom-navLanzamientos {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .custom-navArticleRecomendados {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+    .custom-navCart {
+        margin-top: -20px;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* Estilos del Footer */
+footer {
+    color: var(--bs-white)
+}
+
+footer a,
+footer a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+    font-family: "Kanit-Light";
+}
+
+footer a:hover {
+    color: var(--bs-warning);
+}
+
+footer .footerRowOne img {
+    width: 5%;
+}
+
+footer .footerRowTwo img {
+    width: 75%;
+    margin-bottom: 10px;
+}
+
+.footerSeparator {
+    display: none;
+    background-color: var(--bs-white);
+    height: 2px;
+    width: 80%;
+}
+
+.socials i {
+    height: auto;
+    color: var(--bs-white);
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.socials i:hover {
+    color: var(--bs-warning);
+}
+
+@media screen and (max-width: 992px) {
+    .footer-contain {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-contain .col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footerSeparator {
+        display: block;
+        margin: 2em;
+    }
+
+    footer .footerRowTwo img,
+    svg {
+        width: 30%;
+        margin-bottom: 10px;
+    }
+
+    footer .footerRowOne img,
+    svg {
+        width: 50px;
+    }
+}
+
+/* Estilos de la página de REGISTER */
+.register h1 {
+    font-size: 5em;
+}
+
+.register-form-container {
+    background-color: var(--bs-dark-primary);
+    border: 1px solid var(--bs-white);
+    border-radius: 2px;
+}
+
+.register p {
+    font-family: "Kanit-Light";
+}
+
+.register a,
+.register a:active {
+    font-family: "Kanit-Light";
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.register a:hover {
+    filter: contrast(0.5);
+}
+
+.registerForm label {
+    display: none;
+}
+
+.registerForm input[type="text"],
+.registerForm input[type="email"],
+.registerForm input[type="password"] {
+    width: 100%;
+    border: 1px solid var(--bs-white);
+    background-color: transparent;
+    color: var(--bs-white);
+}
+
+.registerForm input[type="file"] {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    color: var(--bs-white);
+    font-family: "Kanit-Light";
+}
+
+.registerForm input::placeholder {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+.preview-img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 1em 0px;
+    border: 1px solid var(--bs-white);
+    border-radius: 5px;
+}
+
+.register hr {
+    width: 100%;
+    height: 1px;
+}
+
+@media screen and (max-width: 992px) {
+    .register h1 {
+        font-size: 2em;
+    }
+}
+
+/* Estilos de la página de Login */
+.login h1 {
+    font-size: 5em;
+}
+
+.login-form-container {
+    background-color: var(--bs-dark-primary);
+    border: 1px solid var(--bs-white);
+    border-radius: 2px;
+}
+
+.login p {
+    font-family: "Kanit-Light";
+}
+
+.login a,
+.login a:active {
+    font-family: "Kanit-Light";
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.login a:hover {
+    filter: contrast(0.5);
+}
+
+.loginForm label {
+    display: none;
+}
+
+.loginForm input[type="text"],
+.loginForm input[type="password"] {
+    width: 100%;
+    border: 1px solid var(--bs-white);
+    background-color: transparent;
+    color: var(--bs-white);
+}
+
+.loginForm input::placeholder {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+.login hr {
+    width: 100%;
+    height: 1px;
+}
+
+@media screen and (max-width: 992px) {
+    .login h1 {
+        font-size: 2em;
+    }
+}
+
+/* Estilos de la página de Reseteo de Contraseña */
+.lostPassword h1 {
+    font-size: 5em;
+}
+
+.lost-password-container {
+    background-color: var(--bs-dark-primary);
+}
+
+.lostPassword p {
+    font-family: "Kanit-Light";
+}
+
+.lostPassword a,
+.lostPassword a:active {
+    font-family: "Kanit-Light";
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.lostPassword a:hover {
+    filter: contrast(0.5);
+}
+
+.resetForm label {
+    display: none;
+}
+
+.resetForm input[type="email"] {
+    width: 100%;
+    border: 1px solid var(--bs-white);
+    background-color: transparent;
+    color: var(--bs-white);
+}
+
+.resetForm input::placeholder {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+@media screen and (max-width: 992px) {
+    .lostPassword h1 {
+        font-size: 2em;
+    }
+}
+
+/* Estilos de la página ABOUT */
+.about-bg {
+    background: url("../assets/img/bg/bg-about.webp") no-repeat center right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    text-align: left;
+}
+
+.about p {
+    font-family: "Kanit-Light";
+}
+
+/* Estilos de la página CONTACT */
+.contact a,
+.contact a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    filter: contrast(0.5);
+}
+
+.contact p {
+    font-family: "Kanit-Light";
+}
+
+.contact-options {
+    border-left: 1px solid var(--bs-gray-400);
+}
+
+.contact-text {
+    color: var(--bs-gray-400);
+}
+
+.contact-mail {
+    color: var(--bs-warning);
+}
+
+@media screen and (max-width: 992px) {
+    .contact-options {
+        border-left: none;
+    }
+}
+
+/* Estilos de la página de TICKETS */
+.ticket-section img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.ticket-section .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.ticket-section a,
+.ticket-section a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.ticket-section a:hover {
+    filter: contrast(0.5);
+}
+
+.ticket-top {
+    background-color: var(--bs-dark-primary);
+}
+
+.formulario-ticket .input-container {
+    position: relative;
+}
+
+.formulario-ticket .input-container i.fa-magnifying-glass {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.formulario-ticket input {
+    border: 1px solid var(--bs-white);
+    background-color: transparent;
+    color: var(--bs-white);
+    width: 100%;
+    height: 50px;
+    font-family: "Kanit-Light";
+    padding: 0px 2em 0px 40px;
+}
+
+.formulario-ticket input::placeholder {
+    color: var(--bs-white);
+}
+
+.ticket-tipos div[class^="col-"] {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--bs-dark-primary);
+}
+
+.ticket-tipos div[class^="col-"]:hover {
+    filter: brightness(0.8);
+    transition: all 0.5s ease-in-out;
+}
+
+.ticket-tipos i {
+    font-size: 6rem;
+    color: var(--bs-white);
+}
+
+.ticket-tipos a,
+.ticket-tipos a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.ticket-tipos a:hover {
+    filter: contrast(0.5);
+}
+
+@media screen and (max-width: 992px) {
+    .ticket-tipos div[class^="col-"] {
+        width: 90%;
+        height: 15rem;
+    }
+}
+
+/* Estilos de la sección de Soporte para Productos Físicos */
+.physical-products img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.physical-products .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.physical-products a,
+.physical-products a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.physical-products a:hover {
+    filter: contrast(0.5);
+}
+
+.ticket-physical div[class^="col-"] {
+    width: 45%;
+    height: 20rem;
+    background-color: var(--bs-dark-primary);
+}
+
+.ticket-physical div[class^="col-"]:hover {
+    filter: brightness(0.8);
+    transition: all 0.5s ease-in-out;
+}
+
+.ticket-physical i {
+    font-size: 6rem;
+    color: var(--bs-white);
+}
+
+.ticket-physical a,
+.ticket-physical a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.ticket-physical a:hover {
+    filter: contrast(0.5);
+}
+
+@media screen and (max-width: 992px) {
+    .ticket-physical div[class^="col-"] {
+        width: 90%;
+        height: 15rem;
+    }
+}
+
+/* Estilos de la sección de Soporte para Productos Digitales */
+.digital-products img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.digital-products .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.digital-products a,
+.digital-products a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.digital-products a:hover {
+    filter: contrast(0.5);
+}
+
+.ticket-digital div[class^="col-"] {
+    width: 20rem;
+    height: 20rem;
+    background-color: var(--bs-dark-primary);
+}
+
+.ticket-digital div[class^="col-"]:hover {
+    filter: brightness(0.8);
+    transition: all 0.5s ease-in-out;
+}
+
+.ticket-digital i {
+    font-size: 6rem;
+    color: var(--bs-white);
+}
+
+.ticket-digital a,
+.ticket-physical a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.ticket-digital a:hover {
+    filter: contrast(0.5);
+}
+
+@media screen and (max-width: 992px) {
+    .ticket-digital div[class^="col-"] {
+        width: 90%;
+        height: 15rem;
+    }
+}
+
+/* Estilos de la sección de Soporte para Cuentas */
+.collapse .card-body {
+    font-family: "Kanit-Light";
+}
+
+/* Estilos para la sección de ¿Cómo comprar? */
+.how-to-buy img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.how-to-buy .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.how-to-buy a,
+.how-to-buy a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.how-to-buy a:hover {
+    filter: contrast(0.5);
+}
+
+.how-to-buy p {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+/* Estilos para la sección de Política de devoluciones */
+.refunds img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.refunds .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.refunds a,
+.refunds a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.refunds a:hover {
+    filter: contrast(0.5);
+}
+
+.refunds h4 {
+    color: var(--bs-white);
+}
+
+.refunds p {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+.refunds ul li {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+/* Estilos para la sección de Términos y Condiciones */
+.terminos img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.terminos .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.terminos a,
+.terminos a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.terminos a:hover {
+    filter: contrast(0.5);
+}
+
+.terminos h4 {
+    color: var(--bs-white);
+    margin-top: 2em;
+}
+
+.terminos p {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+/* Estilos para la sección de Políticas de privacidad */
+.privacidad img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.privacidad .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.privacidad a,
+.privacidad a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.privacidad a:hover {
+    filter: contrast(0.5);
+}
+
+.privacidad h1 {
+    color: var(--bs-white);
+}
+
+.privacidad h4 {
+    color: var(--bs-white);
+    margin-top: 2em;
+}
+
+.privacidad p {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+.privacidad ul li {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+/* Estilos para la sección de Lista de videojuegos */
+.abecedario .col {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+    font-family: "Kanit-Bold";
+    padding: 0.6em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para la sección de Productos */
+.products img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+.products .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.products a,
+.products a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.products a:hover {
+    filter: contrast(0.5);
+}
+
+.oferta {
+    padding: 2px 10px;
+    font-size: 0.8em;
+    color: var(--bs-white);
+    background-color: var(--bs-danger);
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 992px) {
+    .tarjeta .item {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* Estilos para la sección de Artículos */
+.imagen-articulo img {
+    border-radius: 8px;
+    border: 5px solid #3498db;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out;
+}
+
+.imagen-articulo img:hover {
+    border-color: var(--bs-white);
+}
+
+.articulo-content a,
+.articulo-content a:active {
+    font-family: "Kanit-Light";
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.articulo-content a:hover {
+    filter: contrast(0.5);
+}
+
+.articulo-content h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Kanit-Regular";
+    color: var(--bs-white);
+}
+
+.articulo-content p {
+    font-family: "Kanit-Light";
+    color: var(--bs-white);
+}
+
+.articulo-venta {
+    border: 2px solid var(--bs-dark-primary);
+    height: auto;
+}
+
+.articulo-venta hr {
+    background-color: var(--bs-dark-primary);
+    width: 100%;
+    height: 2px;
+}
+
+.articulo-recomendados hr {
+    width: 100%;
+    background-color: var(--bs-gray-600);
+    height: 1px;
+    margin: 2em 0px;
+}
+
+.detalles-tecnicos th,
+td {
+    width: 50%;
+    font-family: "Kanit-Light";
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.estrellas-detalle .voto {
+    display: block;
+    width: auto;
+    float: left;
+}
+
+.estrellas-detalle .voto i {
+    color: var(--bs-warning);
+    font-size: 20px;
+    padding-right: 3px;
+}
+
+.estrellas-detalle .voto i.fa-star {
+    color: var(--bs-black);
+}
+
+.detalles-tecnicos a,
+.detalles-tecnicos a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+    font-family: "Kanit-Light";
+    font-size: 0.9em;
+}
+
+.detalles-tecnicos a:hover {
+    filter: contrast(0.5);
+}
+
+.modal-body p {
+    color: var(--bs-black);
+    font-family: "Kanit-Light";
+}
+
+.modal-body h4 {
+    color: var(--bs-black);
+    font-family: "Kanit-Regular";
+}
+
+.rellenoRating {
+    background-color: #e6bf00;
+}
+
+.ratings p {
+    font-family: "Kanit-Light";
+}
+
+/* Estilos para el input con las estrellas para la valoración  */
+.rating {
+    --dir: right;
+    --fill: gold;
+    --fillbg: rgba(100, 100, 100, 0.15);
+    --heart: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 21.328l-1.453-1.313q-2.484-2.25-3.609-3.328t-2.508-2.672-1.898-2.883-0.516-2.648q0-2.297 1.57-3.891t3.914-1.594q2.719 0 4.5 2.109 1.781-2.109 4.5-2.109 2.344 0 3.914 1.594t1.57 3.891q0 1.828-1.219 3.797t-2.648 3.422-4.664 4.359z"/></svg>');
+    --star: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 17.25l-6.188 3.75 1.641-7.031-5.438-4.734 7.172-0.609 2.813-6.609 2.813 6.609 7.172 0.609-5.438 4.734 1.641 7.031z"/></svg>');
+    --stars: 5;
+    --starsize: 3rem;
+    --symbol: var(--star);
+    --value: 1;
+    --w: calc(var(--stars) * var(--starsize));
+    --x: calc(100% * (var(--value) / var(--stars)));
+    block-size: var(--starsize);
+    inline-size: var(--w);
+    position: relative;
+    touch-action: manipulation;
+    appearance: none;
+}
+
+[dir="rtl"] .rating {
+    --dir: left;
+}
+
+.rating::-moz-range-track {
+    background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--symbol);
+}
+
+.rating::-webkit-slider-runnable-track {
+    background: linear-gradient(to var(--dir), var(--fill) 0 var(--x), var(--fillbg) 0 var(--x));
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--symbol);
+    -webkit-mask: repeat left center/var(--starsize) var(--symbol);
+}
+
+.rating::-moz-range-thumb {
+    height: var(--starsize);
+    opacity: 0;
+    width: var(--starsize);
+}
+
+.rating::-webkit-slider-thumb {
+    height: var(--starsize);
+    opacity: 0;
+    width: var(--starsize);
+    -webkit-appearance: none;
+}
+
+.rating,
+.rating-label {
+    display: block;
+    font-family: ui-sans-serif, system-ui, sans-serif;
+}
+
+.rating-label {
+    margin-block-end: 1rem;
+}
+
+/* NO JS */
+.rating--nojs::-moz-range-track {
+    background: var(--fillbg);
+}
+
+.rating--nojs::-moz-range-progress {
+    background: var(--fill);
+    block-size: 100%;
+    mask: repeat left center/var(--starsize) var(--star);
+}
+
+.rating--nojs::-webkit-slider-runnable-track {
+    background: var(--fillbg);
+}
+
+.rating--nojs::-webkit-slider-thumb {
+    background-color: var(--fill);
+    box-shadow: calc(0rem - var(--w)) 0 0 var(--w) var(--fill);
+    opacity: 1;
+    width: 1px;
+}
+
+[dir="rtl"] .rating--nojs::-webkit-slider-thumb {
+    box-shadow: var(--w) 0 0 var(--w) var(--fill);
+}
+
+/* Estilos de los mensajes */
+
+.message-container {
+    background-color: var(--bs-white);
+    border: 1px solid var(--bs-morado);
+    box-shadow: 4px 4px 2px 0 rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-details h3 {
+    margin: 0;
+}
+
+.date {
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 5px;
+}
+
+.product-info h2 {
+    margin-top: 0;
+}
+
+.message-text {
+    font-family: "Kanit-Light";
+    line-height: 1.4;
+    font-size: 0.9em;
+}
+
+.sinresenas {
+    font-family: "Kanit-Light";
+    font-size: 0.9em;
+}
+
+.admin-main {
+    margin-top: 90px;
+}
+
+/* Estilos de la página con las ofertas de Black Friday */
+.blackFriday-container {
+    width: 100%;
+    min-height: 70vh;
+    height: auto;
+    background-image: url("../assets/img/bg/blackFriday-bg.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: auto;
+    margin-bottom: 0px;
+}
+
+.blackFriday-container .breadcrumb-item {
+    color: var(--bs-white);
+}
+
+.bf-container a,
+.bf-container a:active {
+    color: var(--bs-black);
+    text-decoration: none;
+}
+
+.bf-container a:hover {
+    color: var(--bs-white);
+}
+
+.bf-container img {
+    width: 30px;
+    filter: grayscale(1);
+}
+
+/* Estilos de la sección de Perfil de usuario */
+.profile-menu {
+    background-color: var(--bs-dark-primary);
+    border: 1px solid var(--bs-white);
+}
+
+.profile-menu a,
+.profile-menu a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.profile-menu a:hover {
+    color: var(--bs-black);
+}
+
+.profile-menu li i:hover {
+    color: var(--bs-black);
+}
+
+.profile-left {
+    background-color: var(--bs-dark-primary);
+    height: 100%;
+
+}
+
+.profile-right {
+    background-color: var(--bs-gray-200);
+    height: 100%;
+}
+
+.option-profile-titles {
+    width: 75%;
+    height: 3em;
+    color: var(--bs-white);
+}
+
+.option-profile-titles .fa-chevron-down,
+.option-profile-titles .fa-chevron-up {
+    cursor: pointer;
+}
+
+.micuenta-options {
+    font-family: "Kanit-Light";
+    display: block;
+    width: 75%;
+    height: auto;
+    color: var(--bs-white);
+}
+
+.micuenta-options a,
+.micuenta-options a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.micuenta-options a:hover {
+    color: var(--bs-warning);
+}
+
+.micuenta-options .active {
+    color: var(--bs-warning);
+}
+
+.ajustes-options {
+    font-family: "Kanit-Light";
+    display: none;
+    width: 75%;
+    height: auto;
+    color: var(--bs-white);
+}
+
+.ajustes-options a,
+.ajustes-options a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.ajustes-options a:hover {
+    color: var(--bs-warning);
+}
+
+.ajustes-options .active {
+    color: var(--bs-warning);
+}
+
+.pedidos-options a,
+.pedidos-options a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.pedidos-options a:hover {
+    color: var(--bs-warning);
+}
+
+.pedidos-options .active {
+    color: var(--bs-warning);
+}
+
+.profile-right a,
+.profile_right a:active {
+    color: var(--bs-dark-primary);
+    text-decoration: none;
+}
+
+.profile-right a:hover {
+    color: var(--bs-warning);
+}
+
+.profile-bar {
+    width: 100%;
+    height: 20px;
+    background-color: var(--bs-gray-400);
+    border-radius: 4px;
+}
+
+.profile-completed {
+    width: 33%;
+    height: 20px;
+    background-color: var(--bs-warning);
+    border-radius: 4px;
+}
+
+.importe-total {
+    font-family: "Kanit-Light";
+    font-size: 0.8em;
+}
+
+.object-cover {
+    object-fit: cover;
+}
+
+/* Estilos del área de Checkout */
+.checkout-container {
+    background-color: var(--bs-morado);
+    min-height: 100px;
+    height: auto;
+    color: var(--bs-white);
+}
+
+.checkout i {
+    color: var(--bs-dark-white);
+}
+
+.checkout a,
+.checkout a:active {
+    color: var(--bs-dark-white);
+    text-decoration: none;
+}
+
+.checkout a:hover {
+    color: var(--bs-warning);
+}
+
+.cart-element {
+    background-color: var(--bs-dark-primary);
+}
+
+.cart-element a,
+.cart-element a:active {
+    color: var(--bs-dark-white);
+    text-decoration: none;
+}
+
+.cart-element a:hover {
+    color: var(--bs-warning);
+}
+
+.cart-summary a,
+.cart-summary a:active {
+    color: var(--bs-dark-white);
+    text-decoration: none;
+}
+
+.cart-summary a:hover {
+    color: var(--bs-warning);
+}
+
+.promotional {
+    color: var(--bs-warning);
+    font-style: italic;
+    font-family: "Kanit-Light";
+}
+
+.cart-payment a,
+.cart-payment a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.cart-payment a:hover {
+    color: var(--bs-white);
+}
+
+#card-details {
+    display: none;
+}
+
+#change-address-form {
+    display: none;
+}
+
+.noaddress a,
+.noaddress a:active {
+    color: var(--bs-warning);
+    text-decoration: none;
+}
+
+.noaddress a:hover {
+    color: var(--bs-white);
+}
+
+/* Estilos del offcanvas del filtrado de productos */
+.offcanvas {
+    background-color: var(--bs-white);
+    color: var(--bs-dark-primary);
+    font-size: 0.9em;
+}
+
+.offcanvas h3,
+.offcanvas h5 {
+    color: var(--bs-dark-primary);
+}
+
+.offcanvas h3 {
+    font-size: 1.2em;
+    color: var(--bs-morado);
+}
+
+.offcanvas input[type="checkbox"] {
+    border-color: var(--bs-black);
+}

@@ -1,0 +1,20 @@
+/* ==================================================================================
+================	URL 		    |		www.antoniobuitrago.es   ================
+================	Author Name		|		Antonio Buitrago         ================
+================================================================================== */
+
+/* Fuentes del proyecto */
+@font-face {
+    font-family: "Kanit-Light";
+    src: url("../fonts/Kanit-Light.ttf");
+}
+
+@font-face {
+    font-family: "Kanit-Regular";
+    src: url("../fonts/Kanit-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Kanit-Bold";
+    src: url("../fonts/Kanit-Bold.ttf");
+}

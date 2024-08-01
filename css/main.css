@@ -1,0 +1,56 @@
+/* ==================================================================================
+================	URL 		    |		www.antoniobuitrago.es   ================
+================	Author Name		|		Antonio Buitrago         ================
+================================================================================== */
+:root {
+    --bs-dark-primary: #003366;
+    --bs-morado: #07073b;
+}
+
+/* Estilos de las etiquetas generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: "Kanit-Regular";
+    background-color: var(--bs-dark-primary);
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: var(--bs-dark-primary);
+}
+
+main {
+    margin-top: 135px;
+}
+
+.enlaces a,
+.enlaces a:active {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.enlaces a:hover {
+    color: var(--bs-warning);
+}
+
+hr {
+    background-color: var(--bs-white);
+    width: 97%;
+    height: 2px;
+    border: none;
+    opacity: 1;
+}
+
+.verde {
+    color: var(--bs-success);
+}
+
+.font-light {
+    font-family: "Kanit-Light";
+}
